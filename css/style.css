@@ -5,6 +5,100 @@
     text-align: left
 }
 
+.HeaderNav__MenuItem-sc-kbus8s-6.gHjHNY.dropDowns.drop .HeaderNav__SubmenuToggleIcon-sc-kbus8s-9 {
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+
+.HeaderNav__MenuItem-sc-kbus8s-6.gHjHNY.dropDowns.drop .dropIn {
+    height: 100% !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    opacity: 1 !important;
+
+}
+
+.VerticalAccordion__SectionContainer-sc-g0yfx7-1.active {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 1 !important;
+}
+
+.VerticalAccordion__SectionContainer-sc-g0yfx7-1.active .VerticalAccordion__SectionImage-sc-g0yfx7-7 {
+    opacity: 0.83 !important;
+}
+
+.VerticalAccordion__SectionContainer-sc-g0yfx7-1.active .VerticalAccordion__SectionContent-sc-g0yfx7-2 {
+    height: 100% !important;
+    opacity: 1 !important;
+}
+
+.VerticalAccordion__SectionContainer-sc-g0yfx7-1.active .jKiYta:after {
+    background: transparent !important;
+}
+
+@media (min-width:768px) {
+    .VerticalAccordion__SectionContainer-sc-g0yfx7-1.active .VerticalAccordion__Indicator-sc-g0yfx7-11 svg {
+        opacity: 0 !important;
+    }
+}
+
+.vidWrap {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(242, 242, 242, 0.75);
+}
+
+.vidWrap .wrapInner {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+@media (min-width:999px) {
+    .vidWrap .wrapInner iframe {
+        width: 60vw !important;
+        height: 75vh !important;
+    }
+}
+
+@media (max-width:998px) {
+    .vidWrap .wrapInner iframe {
+        width: 90vw !important;
+        height: 55vh !important;
+    }
+}
+
+@media (max-width:640px) {
+    .vidWrap .wrapInner iframe {
+        width: 90vw !important;
+        height: 45vh !important;
+    }
+}
+
+@media (max-width:480px) {
+    .vidWrap .wrapInner iframe {
+        width: 92vw !important;
+        height: 40vh !important;
+    }
+}
+
+.vidWrap .HeaderNav__Close-sc-kbus8s-3 {
+    padding: 0 0 20px 0;
+    position: static !important;
+}
+
 .gist .markdown-body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 16px;
